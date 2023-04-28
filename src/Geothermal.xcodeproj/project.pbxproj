@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4514491D29E980B100E5645E /* IGSHPAHTInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4514491C29E980B100E5645E /* IGSHPAHTInputView.swift */; };
+		8BB52A5929ECF832007F2A55 /* IGSHPAVBCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB52A5829ECF832007F2A55 /* IGSHPAVBCalculation.swift */; };
+		8BB52A5B29ECF84C007F2A55 /* IGSHPAHBCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB52A5A29ECF84C007F2A55 /* IGSHPAHBCalculation.swift */; };
+		8BB52A5D29ECF861007F2A55 /* IGSHPAHTCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB52A5C29ECF861007F2A55 /* IGSHPAHTCalculation.swift */; };
+		8BB52A5F29ECF873007F2A55 /* ASHRAECalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB52A5E29ECF873007F2A55 /* ASHRAECalculation.swift */; };
+		9F04654D29F2E01900AD99B0 /* IGSHPAVBResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F04654C29F2E01900AD99B0 /* IGSHPAVBResultView.swift */; };
+		9F0E088729F2F2C2008C1B76 /* IGSHPAHBResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E088629F2F2C2008C1B76 /* IGSHPAHBResultView.swift */; };
+		9F0E088929F2F8B7008C1B76 /* IGSHPAHTResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E088829F2F8B7008C1B76 /* IGSHPAHTResultView.swift */; };
+		9F16420529E797C5005145BB /* GeothermalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16420429E797C5005145BB /* GeothermalApp.swift */; };
+		9F16420729E797C5005145BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16420629E797C5005145BB /* ContentView.swift */; };
+		9F16420929E797C6005145BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F16420829E797C6005145BB /* Assets.xcassets */; };
+		9F16420C29E797C6005145BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F16420B29E797C6005145BB /* Preview Assets.xcassets */; };
+		9F16421329E79802005145BB /* MethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16421229E79802005145BB /* MethodView.swift */; };
+		9F16421529E79870005145BB /* IGSHPASettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16421429E79870005145BB /* IGSHPASettingView.swift */; };
+		9F16421729E7991E005145BB /* IGSHPAVBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16421629E7991D005145BB /* IGSHPAVBInputView.swift */; };
+		9F16421D29E79A20005145BB /* IGSHPAHBInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16421C29E79A20005145BB /* IGSHPAHBInputView.swift */; };
+		9F16421F29E79BB9005145BB /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16421E29E79BB9005145BB /* ViewUtils.swift */; };
+		9F16422129E7B301005145BB /* ASHRAEInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16422029E7B301005145BB /* ASHRAEInputView.swift */; };
+		9F16422429ED1D01005145BB /* ASHRAEResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16422329ED1D01005145BB /* ASHRAEResultView.swift */; };
+		9FBD39A929F2AC20004E5003 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD39A829F2AC20004E5003 /* TermsAndConditionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4514491C29E980B100E5645E /* IGSHPAHTInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHTInputView.swift; sourceTree = "<group>"; };
+		8BB52A5829ECF832007F2A55 /* IGSHPAVBCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAVBCalculation.swift; sourceTree = "<group>"; };
+		8BB52A5A29ECF84C007F2A55 /* IGSHPAHBCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHBCalculation.swift; sourceTree = "<group>"; };
+		8BB52A5C29ECF861007F2A55 /* IGSHPAHTCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHTCalculation.swift; sourceTree = "<group>"; };
+		8BB52A5E29ECF873007F2A55 /* ASHRAECalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHRAECalculation.swift; sourceTree = "<group>"; };
+		9F04654C29F2E01900AD99B0 /* IGSHPAVBResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAVBResultView.swift; sourceTree = "<group>"; };
+		9F0E088629F2F2C2008C1B76 /* IGSHPAHBResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHBResultView.swift; sourceTree = "<group>"; };
+		9F0E088829F2F8B7008C1B76 /* IGSHPAHTResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHTResultView.swift; sourceTree = "<group>"; };
+		9F16420129E797C5005145BB /* Geothermal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geothermal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F16420429E797C5005145BB /* GeothermalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeothermalApp.swift; sourceTree = "<group>"; };
+		9F16420629E797C5005145BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F16420829E797C6005145BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F16420B29E797C6005145BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F16421229E79802005145BB /* MethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodView.swift; sourceTree = "<group>"; };
+		9F16421429E79870005145BB /* IGSHPASettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPASettingView.swift; sourceTree = "<group>"; };
+		9F16421629E7991D005145BB /* IGSHPAVBInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAVBInputView.swift; sourceTree = "<group>"; };
+		9F16421C29E79A20005145BB /* IGSHPAHBInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGSHPAHBInputView.swift; sourceTree = "<group>"; };
+		9F16421E29E79BB9005145BB /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		9F16422029E7B301005145BB /* ASHRAEInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHRAEInputView.swift; sourceTree = "<group>"; };
+		9F16422329ED1D01005145BB /* ASHRAEResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHRAEResultView.swift; sourceTree = "<group>"; };
+		9FBD39A829F2AC20004E5003 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1641FE29E797C5005145BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB52A6029ECF8C7007F2A55 /* IGSHPAVB */ = {
+			isa = PBXGroup;
+			children = (
+				9F16421629E7991D005145BB /* IGSHPAVBInputView.swift */,
+				8BB52A5829ECF832007F2A55 /* IGSHPAVBCalculation.swift */,
+				9F04654C29F2E01900AD99B0 /* IGSHPAVBResultView.swift */,
+			);
+			path = IGSHPAVB;
+			sourceTree = "<group>";
+		};
+		8BB52A6129ECF8FA007F2A55 /* IGSHPAHB */ = {
+			isa = PBXGroup;
+			children = (
+				9F16421C29E79A20005145BB /* IGSHPAHBInputView.swift */,
+				8BB52A5A29ECF84C007F2A55 /* IGSHPAHBCalculation.swift */,
+				9F0E088629F2F2C2008C1B76 /* IGSHPAHBResultView.swift */,
+			);
+			path = IGSHPAHB;
+			sourceTree = "<group>";
+		};
+		8BB52A6229ECF914007F2A55 /* IGSHPAHT */ = {
+			isa = PBXGroup;
+			children = (
+				4514491C29E980B100E5645E /* IGSHPAHTInputView.swift */,
+				8BB52A5C29ECF861007F2A55 /* IGSHPAHTCalculation.swift */,
+				9F0E088829F2F8B7008C1B76 /* IGSHPAHTResultView.swift */,
+			);
+			path = IGSHPAHT;
+			sourceTree = "<group>";
+		};
+		8BB52A6329ECF922007F2A55 /* ASHRAE */ = {
+			isa = PBXGroup;
+			children = (
+				9F16422029E7B301005145BB /* ASHRAEInputView.swift */,
+				8BB52A5E29ECF873007F2A55 /* ASHRAECalculation.swift */,
+				9F16422329ED1D01005145BB /* ASHRAEResultView.swift */,
+			);
+			path = ASHRAE;
+			sourceTree = "<group>";
+		};
+		9F1641F829E797C5005145BB = {
+			isa = PBXGroup;
+			children = (
+				9F16420329E797C5005145BB /* Geothermal */,
+				9F16420229E797C5005145BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F16420229E797C5005145BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F16420129E797C5005145BB /* Geothermal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F16420329E797C5005145BB /* Geothermal */ = {
+			isa = PBXGroup;
+			children = (
+				8BB52A6029ECF8C7007F2A55 /* IGSHPAVB */,
+				8BB52A6129ECF8FA007F2A55 /* IGSHPAHB */,
+				8BB52A6229ECF914007F2A55 /* IGSHPAHT */,
+				8BB52A6329ECF922007F2A55 /* ASHRAE */,
+				9F16420429E797C5005145BB /* GeothermalApp.swift */,
+				9F16420629E797C5005145BB /* ContentView.swift */,
+				9F16421229E79802005145BB /* MethodView.swift */,
+				9F16421429E79870005145BB /* IGSHPASettingView.swift */,
+				9FBD39A829F2AC20004E5003 /* TermsAndConditionsView.swift */,
+				9F16421E29E79BB9005145BB /* ViewUtils.swift */,
+				9F16420829E797C6005145BB /* Assets.xcassets */,
+				9F16420A29E797C6005145BB /* Preview Content */,
+			);
+			path = Geothermal;
+			sourceTree = "<group>";
+		};
+		9F16420A29E797C6005145BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F16420B29E797C6005145BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F16420029E797C5005145BB /* Geothermal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F16420F29E797C6005145BB /* Build configuration list for PBXNativeTarget "Geothermal" */;
+			buildPhases = (
+				9F1641FD29E797C5005145BB /* Sources */,
+				9F1641FE29E797C5005145BB /* Frameworks */,
+				9F1641FF29E797C5005145BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geothermal;
+			productName = Geothermal;
+			productReference = 9F16420129E797C5005145BB /* Geothermal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1641F929E797C5005145BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9F16420029E797C5005145BB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9F1641FC29E797C5005145BB /* Build configuration list for PBXProject "Geothermal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1641F829E797C5005145BB;
+			productRefGroup = 9F16420229E797C5005145BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F16420029E797C5005145BB /* Geothermal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1641FF29E797C5005145BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16420C29E797C6005145BB /* Preview Assets.xcassets in Resources */,
+				9F16420929E797C6005145BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1641FD29E797C5005145BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB52A5D29ECF861007F2A55 /* IGSHPAHTCalculation.swift in Sources */,
+				4514491D29E980B100E5645E /* IGSHPAHTInputView.swift in Sources */,
+				9F16421729E7991E005145BB /* IGSHPAVBInputView.swift in Sources */,
+				9F16422129E7B301005145BB /* ASHRAEInputView.swift in Sources */,
+				9F0E088929F2F8B7008C1B76 /* IGSHPAHTResultView.swift in Sources */,
+				9F04654D29F2E01900AD99B0 /* IGSHPAVBResultView.swift in Sources */,
+				9F0E088729F2F2C2008C1B76 /* IGSHPAHBResultView.swift in Sources */,
+				9F16421329E79802005145BB /* MethodView.swift in Sources */,
+				8BB52A5B29ECF84C007F2A55 /* IGSHPAHBCalculation.swift in Sources */,
+				9F16421F29E79BB9005145BB /* ViewUtils.swift in Sources */,
+				9F16420729E797C5005145BB /* ContentView.swift in Sources */,
+				9F16421D29E79A20005145BB /* IGSHPAHBInputView.swift in Sources */,
+				9F16422429ED1D01005145BB /* ASHRAEResultView.swift in Sources */,
+				9F16420529E797C5005145BB /* GeothermalApp.swift in Sources */,
+				8BB52A5929ECF832007F2A55 /* IGSHPAVBCalculation.swift in Sources */,
+				9FBD39A929F2AC20004E5003 /* TermsAndConditionsView.swift in Sources */,
+				9F16421529E79870005145BB /* IGSHPASettingView.swift in Sources */,
+				8BB52A5F29ECF873007F2A55 /* ASHRAECalculation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9F16420D29E797C6005145BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F16420E29E797C6005145BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F16421029E797C6005145BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geothermal/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HQ229LF2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Geothermal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geothermal.ioredback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F16421129E797C6005145BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Geothermal/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HQ229LF2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Geothermal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geothermal.ioredback;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1641FC29E797C5005145BB /* Build configuration list for PBXProject "Geothermal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16420D29E797C6005145BB /* Debug */,
+				9F16420E29E797C6005145BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F16420F29E797C6005145BB /* Build configuration list for PBXNativeTarget "Geothermal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F16421029E797C6005145BB /* Debug */,
+				9F16421129E797C6005145BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1641F929E797C5005145BB /* Project object */;
+}
